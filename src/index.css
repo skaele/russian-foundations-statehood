@@ -1,0 +1,16 @@
+#root {
+  font-family: Times New Roman;
+  font-style: normal;
+  color: #000;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-height: 100dvh;
+  min-width: 100dvw;
+  box-sizing: border-box;
+}
