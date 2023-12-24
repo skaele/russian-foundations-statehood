@@ -21,6 +21,7 @@ export const Wrapper = styled.div`
 
 export const TextWrapper = styled.div`
   font-size: 1.5em;
+  text-align: justify;
 `;
 
 export const Title = styled.h3`

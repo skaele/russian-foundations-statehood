@@ -8,6 +8,7 @@ export const MainWrapper = styled.div`
 
 export const Text = styled.p`
   font-size: 1.5em;
+  text-align: justify;
 `;
 
 export const StyledCarousel = styled(Carousel)`

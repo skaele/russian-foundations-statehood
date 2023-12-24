@@ -6,6 +6,7 @@ export const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
   gap: 30px;
+  margin-top: 50px;
 `;
 
 export const Banner = styled.div`

@@ -7,10 +7,8 @@ export const Wrapper = styled.div`
   margin: 0 auto;
 
   margin-top: 30px;
-  gap: 150px;
 `;
 
 export const Title = styled.h3`
-  font-size: 4em;
-  margin-bottom: -100px;
+  font-size: 2em;
 `;

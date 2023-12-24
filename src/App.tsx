@@ -1,30 +1,31 @@
-import { End } from "./components/Consultion";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Culture } from "./components/Fifith";
 import { Footer } from "./components/Footer";
 import { Narod } from "./components/Fourth";
 import { People } from "./components/People";
-import { SecondStep } from "./components/Second";
 import { Territory } from "./components/Seventh";
 import { History } from "./components/Sixth";
 import { StartBlock } from "./components/Start";
 import { ThirdStep } from "./components/Third";
-import "react-responsive-carousel/lib/styles/carousel.min.css";
 import * as S from "./styled";
+import { Worker } from "@react-pdf-viewer/core";
+import { SecondStep } from "./components/Second";
 
 function App() {
   return (
-    <S.MainWrapper>
-      <StartBlock />
-      <SecondStep />
-      <ThirdStep />
-      <Narod />
-      <Culture />
-      <Territory />
-      <History />
-      <People />
-      <End />
-      <Footer />
-    </S.MainWrapper>
+    <Worker workerUrl="https://unpkg.com/pdfjs-dist@3.4.120/build/pdf.worker.min.js">
+      <S.MainWrapper>
+        <StartBlock />
+        <SecondStep />
+        <Narod />
+        <Territory />
+        <History />
+        <Culture />
+        <People />
+        <ThirdStep />
+        <Footer />
+      </S.MainWrapper>
+    </Worker>
   );
 }
 

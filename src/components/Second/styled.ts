@@ -14,5 +14,5 @@ export const Wrapper = styled.div`
   align-items: center;
   gap: 20px;
   margin: 0 auto;
-  margin-top: 70px;
+  margin-top: 30px;
 `;
