@@ -17,7 +17,7 @@ export const ImageWithText = ({ text, image, title }: Props) => {
       {title && <S.Title>{title}</S.Title>}
       <S.Content>
         <S.TextWrapper>{text}</S.TextWrapper>
-        <img src={image.src} width={image.width} height={image.height} />
+        <S.Img src={image.src} width={image.width} height={image.height} />
       </S.Content>
     </S.Wrapper>
   );

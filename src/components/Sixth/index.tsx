@@ -4,7 +4,7 @@ import * as S from "./styled";
 
 export const History = () => {
   return (
-    <S.Wrapper>
+    <S.Wrapper id="history">
       <ImageWithText
         text={
           <>
@@ -40,12 +40,13 @@ export const History = () => {
           </>
         }
         image={{
-          src: "history.png",
+          src: "./history.png",
           width: 600,
           height: 400,
         }}
         title="История"
       />
+      <S.Banner />
     </S.Wrapper>
   );
 };

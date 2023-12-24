@@ -4,6 +4,10 @@ export const Content = styled.div`
   display: flex;
   justify-content: flex-start;
   align-items: center;
+
+  @media only screen and (max-width: 900px) {
+    flex-direction: column;
+  }
   gap: 15px;
 `;
 
@@ -22,4 +26,11 @@ export const TextWrapper = styled.div`
 export const Title = styled.h3`
   font-size: 2em;
   font-weight: 700;
+`;
+
+export const Img = styled.img`
+  object-fit: cover;
+  @media only screen and (max-width: 900px) {
+    width: 100%;
+  }
 `;

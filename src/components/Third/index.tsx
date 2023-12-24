@@ -28,7 +28,7 @@ export const ThirdStep = () => {
           регулирующие отношения в сфере государственной власти, а также
           основные права и обязанности граждан.
         </Text>
-        <S.Img src="teatr.png" />
+        <S.Img src="./teatr.png" />
       </S.TextedImageWrapper>
       <S.TargetWrapper>
         <S.Flag />
@@ -38,7 +38,7 @@ export const ThirdStep = () => {
           активного участия в общественной жизни страны.
         </S.TextTarget>
       </S.TargetWrapper>
-      <S.Map src="map.jpg" />
+      <S.Map src="./map.jpg" />
     </S.Wrapper>
   );
 };

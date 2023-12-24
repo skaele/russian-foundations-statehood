@@ -4,7 +4,8 @@ import * as S from "./styled";
 
 export const People = () => {
   return (
-    <S.Wrapper>
+    <S.Wrapper id="people">
+      <S.Title>Люди, которые делают Россию</S.Title>
       <ImageWithText
         text={
           <>
@@ -36,9 +37,9 @@ export const People = () => {
           </>
         }
         image={{
-          src: "1.png",
-          width: 400,
-          height: 600,
+          src: "./1.png",
+          width: 300,
+          height: 400,
         }}
       />
 
@@ -74,9 +75,9 @@ export const People = () => {
           </>
         }
         image={{
-          src: "2.png",
-          width: 400,
-          height: 600,
+          src: "./2.png",
+          width: 300,
+          height: 400,
         }}
       />
       <ImageWithText
@@ -100,9 +101,9 @@ export const People = () => {
           </>
         }
         image={{
-          src: "3.png",
-          width: 550,
-          height: 600,
+          src: "./3.png",
+          width: 400,
+          height: 300,
         }}
       />
       <ImageWithText
@@ -120,9 +121,9 @@ export const People = () => {
           </>
         }
         image={{
-          src: "4.png",
-          width: 600,
-          height: 400,
+          src: "./4.png",
+          width: 400,
+          height: 300,
         }}
       />
       <ImageWithText
@@ -138,9 +139,9 @@ export const People = () => {
           </>
         }
         image={{
-          src: "5.png",
-          width: 600,
-          height: 400,
+          src: "./5.png",
+          width: 450,
+          height: 300,
         }}
       />
     </S.Wrapper>

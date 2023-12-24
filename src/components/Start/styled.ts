@@ -24,6 +24,7 @@ export const Header = styled.header`
 
   font-size: 2em;
   font-weight: 700;
+  overflow: hidden;
 `;
 
 export const Img = styled.img`
@@ -33,4 +34,9 @@ export const Img = styled.img`
 export const Title = styled.h1`
   color: #e7e8eb;
   font-size: 6em;
+`;
+
+export const Link = styled.a`
+  text-decoration: none;
+  color: #000;
 `;

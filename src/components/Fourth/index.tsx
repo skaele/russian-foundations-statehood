@@ -1,10 +1,11 @@
+import { StyledCarousel } from "../../styled";
 import { ImageWithText } from "../ImageWithText";
 
 import * as S from "./styled";
 
 export const Narod = () => {
   return (
-    <S.Wrapper>
+    <S.Wrapper id="narod">
       <ImageWithText
         text={
           <>
@@ -43,12 +44,18 @@ export const Narod = () => {
           </>
         }
         image={{
-          src: "narod.png",
+          src: "./narod.png",
           width: 450,
           height: 600,
         }}
         title="Народ"
       />
+      <StyledCarousel showThumbs={false} infiniteLoop swipeable>
+        <img src="./narod-1.png" />
+        <img src="./narod-2.png" />
+        <img src="./narod-3.png" />
+        <img src="./narod-4.png" />
+      </StyledCarousel>
     </S.Wrapper>
   );
 };

@@ -5,13 +5,13 @@ export const StartBlock = () => {
     <S.ImageContent>
       <S.Wrapper>
         <S.Header>
-          <S.Img src="/logo.png" alt="logo" height={120} />
-          <span>Россия это</span>
-          <span>Народ</span>
-          <span>Культура</span>
-          <span>Территория</span>
-          <span>История</span>
-          <span>Люди России</span>
+          <S.Img src="./logo.png" alt="logo" height={120} />
+          <S.Link href={"#is"}>Россия это</S.Link>
+          <S.Link href={"#narod"}>Народ</S.Link>
+          <S.Link href={"#culture"}>Культура</S.Link>
+          <S.Link href={"#ter"}>Территория</S.Link>
+          <S.Link href={"#history"}>История</S.Link>
+          <S.Link href={"#people"}>Люди России</S.Link>
         </S.Header>
         <S.Title>
           Российская <br />

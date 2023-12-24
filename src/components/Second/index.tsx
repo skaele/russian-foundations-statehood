@@ -3,7 +3,7 @@ import * as S from "./styled";
 
 export const SecondStep = () => {
   return (
-    <S.Wrapper>
+    <S.Wrapper id={"is"}>
       <S.BlockTitle>Россия это</S.BlockTitle>
       <Text>
         Россия – это магия просторов, где бескрайние равнины ласкают взор своей

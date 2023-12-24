@@ -1,9 +1,10 @@
 #root {
-  font-family: Times New Roman;
+  font-family: Lato, Arial, sans-serif, -apple-system;
   font-style: normal;
   color: #000;
   min-width: 100%;
   min-height: 100%;
+  overflow-x: hidden;
 }
 
 body {
@@ -11,6 +12,15 @@ body {
   display: flex;
   place-items: center;
   min-height: 100dvh;
-  min-width: 100dvw;
   box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media only screen and (max-width: 900px) {
+  html {
+    font-size: 12px;
+  }
 }

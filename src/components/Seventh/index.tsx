@@ -1,10 +1,11 @@
+import { StyledCarousel } from "../../styled";
 import { ImageWithText } from "../ImageWithText";
 
 import * as S from "./styled";
 
 export const Territory = () => {
   return (
-    <S.Wrapper>
+    <S.Wrapper id="ter">
       <ImageWithText
         text={
           <>
@@ -34,12 +35,18 @@ export const Territory = () => {
           </>
         }
         image={{
-          src: "wb-map.png",
+          src: "./wb-map.png",
           width: 700,
           height: 350,
         }}
         title="Территория"
       />
+      <StyledCarousel showThumbs={false} infiniteLoop swipeable>
+        <img src="./ter-1.png" />
+        <img src="./ter-2.png" />
+        <img src="./ter-3.png" />
+        <img src="./ter-4.png" />
+      </StyledCarousel>
     </S.Wrapper>
   );
 };

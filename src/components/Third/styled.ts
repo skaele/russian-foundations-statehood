@@ -9,10 +9,13 @@ export const Wrapper = styled.div`
 
 export const TextedImageWrapper = styled.div`
   display: flex;
+  @media only screen and (max-width: 900px) {
+    flex-direction: column;
+  }
 `;
 
 export const Img = styled.img`
-  width: 914px;
+  width: 90%;
   height: 578px;
 `;
 
@@ -38,4 +41,9 @@ export const TextTarget = styled.span`
 
 export const Map = styled.img`
   margin: 0 auto;
+  width: 50%;
+
+  @media only screen and (max-width: 900px) {
+    width: 100%;
+  }
 `;
