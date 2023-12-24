@@ -17,9 +17,9 @@ function App() {
       <S.MainWrapper>
         <StartBlock />
         <SecondStep />
-        <Narod />
         <Territory />
         <History />
+        <Narod />
         <Culture />
         <People />
         <ThirdStep />
